@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/horizontal_list_items_padding_w">
+
+    <ImageView
+        android:id="@+id/imageViewV"
+        android:layout_width="@dimen/vertical_list_item_size_w"
+        android:layout_height="@dimen/vertical_list_item_size_h"
+        android:scaleType="fitXY"
+        android:src="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/vertical_list_item_text_padding_w"
+        android:background="@color/text_block_background_color">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/vertical_list_item_title_size"
+            android:textColor="@color/title_vertical_item_color"
+            android:paddingTop="@dimen/vertical_list_item_title_padding_h"
+            android:paddingBottom="@dimen/vertical_list_item_title_padding_h"
+            android:lines="1"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/vertical_list_item_text_size"
+            android:maxLines="4"
+            android:textColor="@color/desc_vertical_item_color"
+            android:text="description" />
+
+    </LinearLayout>
+
+</LinearLayout>

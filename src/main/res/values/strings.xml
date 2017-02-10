@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StylightApp</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="first_list_title_text">Check these out</string>
+    <string name="first_list_desc_text">New and trending products</string>
+
+    <string name="second_list_title_text">The latest fashion news</string>
+    <string name="second_list_desc_text">Get up to date</string>
+
+    <string name="third_list_title_text">The coolest lamps</string>
+    <string name="third_list_desc_text">New and trending products</string>
+
+    <string name="fourth_list_title_text">The latest lifestyle news</string>
+    <string name="fourth_list_desc_text">Get up to date</string>
+</resources>
